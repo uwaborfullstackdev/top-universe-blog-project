@@ -5,47 +5,141 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog Project</title>
-    <link href="css/main.css" rel="stylesheet">
+    <title>A Blog Template</title>
+
+    <!-- CSS STYLESHEET -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/bcbaf0ec82.js" crossorigin="anonymous"></script>
+
+
 </head>
 
 <body>
+    <header class="header">
+        <div class="logo">
+            <a href="#"><img src="images/NORDIC ROSE.png" alt="logo"></a>
+        </div>
+        <div class="navbar">
+            <div class="navbar-list" id="myTopnav">
+                <a href="#">BLOG</a>
+                <a href="#">ABOUT</a>
+                <a href="#">LINKS</a>
+                <a href="#">PROJECTS</a>
+                <a href="#" class="icon" title="a" onclick="myFunction()">
+                    <i class="fas fa-bars"></i></a>
+            </div>
+        </div>
+    </header>
     <section>
-        <div class="container">
-            <img class="header-img" src="images/headerblog.png" alt="header-image">
-            <h1 class="blog-heading">
-                A few words about this blog <br> platform, Ghost, and how this <br> site was made.
-            </h1>
-
-            <p class="blog-wordpress">Why Ghost (& Figma) instead of Medium, WordPress or other <br> options?</p>
+        <div class="hero">
+            <div class="hero-content">
+                <img src="images/image 2.jpg" alt="Hero image">
+                <h4>A few words about this blog platform, Ghost, and how this site was made</h4>
+                <p class="para">Why Ghost (& Figma) instead of Medium, WordPress or other options?</p>
+            </div>
             <hr>
-
-
-            <h4>All articles</h4>
-
-            <div class="blog-grid-container">
-                <div class="blog-grid-container-children">
-                    <img src="images/blog1.png" alt="blog1">
-                    <h3>Here are some things you should know regarding how we work</h3>
+            <div class="container">
+                <h4 class="title">All articles</h4>
+                <div class="container-article">
+                    <div class="blog1-display">
+                        <img src="images/blog1.jpg" alt="blog 1">
+                        <p>Here are some things you should know regarding how we work </p>
+                    </div>
+                    <div class="blog2-display">
+                        <img src="images/blog2.jpg" alt="blog 2">
+                        <p>Granny gives everyone the finger, and other tips from OFFF Barcelona</p>
+                    </div>
                 </div>
-                <div class="blog-grid-container-children">
-                    <img src="images/blog2.png" alt="blog2">
-                    <h3>Granny gives everyone the finger, and other tips from OFFF Barcelona</h3>
+                <div class="container-article">
+                    <div class="blog1-display">
+                        <img src="images/blog3.jpg" alt="blog 3">
+                        <p>Here are some things you should know regarding how we work </p>
+                    </div>
+                    <div class="blog2-display">
+                        <img src="images/blog4.jpg" alt="blog 4">
+                        <p>Granny gives everyone the finger, and other tips from OFFF Barcelona</p>
+                    </div>
                 </div>
-
+                <div class="container-article">
+                    <div class="blog1-display">
+                        <img src="images/blog5.jpg" alt="blog 5">
+                        <p>Hello world, or, in other words, why this blog exists</p>
+                    </div>
+                    <div class="blog2-display">
+                        <img src="images/blog6.jpg" alt="blog 6">
+                        <p>It’s all about finding the perfect balance</p>
+                    </div>
+                </div>
+                <div class="container-article">
+                    <div class="blog1-display">
+                        <img src="images/blog7.jpg" alt="blog 7">
+                        <p>I believe learning is the most important skill</p>
+                    </div>
+                    <div class="blog2-display">
+                        <img src="images/blog8.jpg" alt="blog 8">
+                        <p>Clients are part of the team</p>
+                    </div>
+                </div>
+                <div class="container-article">
+                    <div class="blog1-display">
+                        <img src="images/Rectangle 16.jpg" alt="blog 9">
+                        <p>Here are some things you should know regarding how we work</p>
+                    </div>
+                    <div class="blog2-display">
+                        <img src="images/Rectangle 17.jpg" alt="blog 10">
+                        <p>Connecting artificial intelligence with digital product design</p>
+                    </div>
+                </div>
+                <div class="container-article">
+                    <div class="blog1-display">
+                        <img src="images/Rectangle 18.jpg" alt="blog 11">
+                        <p>How modern remote working tools get along with Old School Cowboy's methods</p>
+                    </div>
+                    <div class="blog2-display">
+                        <img src="images/Rectangle 19.jpg" alt="blog 12">
+                        <p>Clients are part of the team</p>
+                    </div>
+                </div>
             </div>
-
-            <div class="blog-grid-container">
-                <div class="blog-grid-container-children">
-                    <img src="images/blog3.png" alt="blog3">
-                    <h3>Hello world, or, in other words, why this blog exists</h3>
-                </div>
-                <div class="blog-grid-container-children">
-                    <img src="images/blog4.png" alt="blog4">
-                    <h3>Here are some things you should know regarding how we work </h3>
-                </div>
-            </div>
+        </div>
     </section>
+
+    <footer class="footer">
+        <div class="skills">
+            <span>Digital product design</span>
+            <span class="light">Remote work</span>
+            <span>Ux Design</span>
+            <span class="light">Distributed team</span>
+            <span>Creativity</span>
+            <span class="light">Strategy</span>
+            <span>Suspense</span>
+            <span class="light">Growth</span>
+        </div>
+        <div class="logo2">
+            <h3><img src="images/NORDIC ROSE2.png" alt=""> </h3>
+            <div class="logo2-para">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu velit tempus erat egestas efficitur. In
+                hac habitasse platea dictumst. Fusce a nunc eget ligula suscipit finibus.
+            </div>
+        </div>
+        <div class="socials">
+            <a href="#">Twitter</a>
+            <a href="#">Linkedin</a>
+            <a href="#">RSS</a>
+        </div>
+    </footer>
+    <!-- Navbar Script -->
+    <script>
+        function myFunction() {
+            let x = document.getElementById("myTopnav");
+            if (x.className === "navbar-list") {
+                x.className += " responsive";
+            } else {
+                x.className = "navbar-list";
+            }
+        }
+    </script>
 </body>
 
 </html>
